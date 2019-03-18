@@ -1,8 +1,8 @@
 provider "aws" {
-  region = "us-west-2"
+  region = "us-east-1"
 }
 
 resource "aws_instance" "terraform_ec2" {
-  ami           = "ami-01ed306a12b7d1c96"
+  ami           = "ami-0a313d6098716f372"
   instance_type = "t2.medium"
 }
